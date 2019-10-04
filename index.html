@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+
+
+    <fieldset>
+        <p align=right>
+            <a href="" align=right>Home</a>
+            <a href="" align=right>Log in</a>
+        </p>
+    </fieldset>
+
+    <pre>
+    
+    
+    </pre>
+
+    <form action="login.php" method="POST" align="center">
+        <fieldset class="form-item">
+            <p><input type="text" name="username" placeholder="First Name"></p>
+            <p> <input type="text" name="Last Name" placeholder="Last Name"></p>
+            <div>
+                <select name="country" class="form-item">
+                  <option value=""hidden>City</option>
+                  <option value="Yerevan">Yerevan</option>
+                  <option value="Moscow">Moscow</option> 
+                  <option value="Paris">Paris</option> 
+                  <option value="London">London</option> 
+                </select>
+                <div class="select-arrow"></div>
+            </div>
+
+            <div>
+                <p align="left" style="font-size: 13px">
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </p>
+            </div><br>
+            <div>
+                <p align="left" style="font-size: 14px">
+                    <input type="checkbox"> Send me Email
+                    <input type="Submit" value="Log in">
+                </p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

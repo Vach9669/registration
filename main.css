@@ -1,0 +1,14 @@
+.form-item {
+    width: 200px;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+fieldset {
+    position: relative;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 100.01%;
+    margin: 0 auto;
+}
